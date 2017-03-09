@@ -1,0 +1,41 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "webpack & react basic base",
+  "author": "Syaku (최석균) <http://syaku.tistory.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syakuis/webpack-react.git"
+  },
+  "scripts": {
+    "dev": "webpack --colors --progress -d",
+    "prod": "webpack --colors --progress -p",
+    "serv": "webpack-dev-server",
+    "serv2": "webpack-dev-server -p"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "stylelint": "^7.8.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-webpack-plugin": "^0.6.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.3",
+    "webpack-entries": "^1.0.0",
+    "webpack-glob-entries": "^1.0.1"
+  },
+  "dependencies": {}
+}
