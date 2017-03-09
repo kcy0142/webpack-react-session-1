@@ -57,7 +57,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: 'dist',
-    publicPath: '',
+    publicPath: '/',
     filename: '[name].js'
   },
 
