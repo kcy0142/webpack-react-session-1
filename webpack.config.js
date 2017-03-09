@@ -35,8 +35,8 @@ for (var i in entryTarget) {
   dirnames[name] = dirname.replace(/\.\/src\/(.*)/, '$1')
 }
 
-console.log('entries ==> ', entries)
-console.log('dirnames ==> ', dirnames)
+console.log('entries 1==> ', entries)
+console.log('dirnames 1==> ', dirnames)
 
 let htmlWebpackPlugins = []
 
