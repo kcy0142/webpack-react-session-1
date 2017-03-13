@@ -1,6 +1,6 @@
 ## webpack configuration : webpack-react
 
-webpack 기본 설정 가이드 react 포함.
+webpack 기본 설정 가이드 react 포함.test
 
 > webpack 2
 webpack-dev-server
